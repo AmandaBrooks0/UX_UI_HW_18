@@ -72,7 +72,8 @@ img {
     color: rgb(28, 28, 80);
     text-align: center;
     font-size:40px;
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
   }
@@ -91,4 +92,97 @@ img {
 
   body {
     background-color: rgb(255, 255, 255);
+  }
+
+  .words {
+    grid-area: words;
+    
+  }
+
+  .i {
+    grid-area: i;
+    
+  }
+
+  
+  .workGrid {
+    display: grid;
+    grid-template-areas: 'words i';
+    column-gap: 15px;
+    background-color: rgb(152, 187, 255);
+    padding: 15px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 40px;
+    justify-content: stretch;
+    align-items: space-evenly;
+    text-align: center;
+    
+    
+  }
+
+
+  .words {
+    margin: px;
+    padding:40px;
+    background-color: white;
+  }
+
+.i {
+    background-color: rgb(224, 232, 255); 
+    justify-content: center;
+    padding:10px;
+
+}
+    
+  
+  
+
+  #study1 {
+    width: 500px;
+    
+   
+  }
+  #study2 {
+    width: 500px;
+  }
+  #study3 {
+    width: 150px;
+    align-items: center;
+    
+  }
+
+  h4 {
+    color: rgb(28, 28, 80);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(91, 107, 184);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 5px solid rgb(194, 208, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+  #vap {
+    display:flex;
+    background-color:rgb(224, 232, 255);
+    border: 8px solid rgb(152, 187, 255);
+    font-size: 22px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 18px;
+    justify-content: center;
+    border-radius: 15px;
+    
+    
+
   }
